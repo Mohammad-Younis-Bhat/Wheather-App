@@ -10,7 +10,7 @@ const Forecast =  (props)=> {
             setForCasteData(Response);
           } catch (error) {
             console.error("Failed to fetch data:", error);
-          }
+          }                                                                                                                                         
         };
       
         fetchData();

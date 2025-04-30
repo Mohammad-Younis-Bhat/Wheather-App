@@ -129,7 +129,7 @@ const App = () => {
     </div>
       <div className="w-full flex">
           <Forecast City={location}/>
-          <Astronomy/>
+          <Astronomy City={location}/>
       </div>
     
     </Layout>
