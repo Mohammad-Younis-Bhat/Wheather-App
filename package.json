@@ -3,10 +3,13 @@
     "dev": "parcel index.html",
     "build": "parcel build index.html"
   },
-  "dependencies": {
+  "devDependencies": {
+    "@parcel/resolver-default": "^2.14.4",
     "@tailwindcss/postcss": "^4.1.4",
+    "parcel": "^2.14.4"
+  },
+  "dependencies": {
     "lucide-react": "^0.503.0",
-    "parcel": "^2.14.4",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "tailwindcss": "^4.1.4"
